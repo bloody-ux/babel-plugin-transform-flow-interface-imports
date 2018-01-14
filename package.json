@@ -10,6 +10,9 @@
     "lint-staged": "lint-staged",
     "lint": "eslint src/**/*.{jsx,js}"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "babel-plugin",
     "facebook flow",
