@@ -12,7 +12,7 @@ function test(module, value) {
   return module === value;
 }
 
-exports.default = function plugin() {
+export default function plugin() {
   return {
     visitor: {
       ImportDeclaration(path, state) {
@@ -25,4 +25,4 @@ exports.default = function plugin() {
       },
     },
   };
-};
+}

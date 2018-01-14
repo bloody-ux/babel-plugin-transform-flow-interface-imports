@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-flow-interface-imports",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Used to remove useless interface import after babel-plugin-transform-flow-strip-types",
   "main": "lib/index.js",
   "jsnext:main": "lib/index.js",
