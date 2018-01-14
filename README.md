@@ -46,7 +46,6 @@ import {
 ) {
   yield call(add, { ...payload });
 
-  // 成功后刷新
   yield put({
     type: 'queryList',
   });
@@ -60,7 +59,6 @@ import {
 ) {
   yield call(add, { ...payload });
 
-  // 成功后刷新
   yield put({
     type: 'queryList',
   });
